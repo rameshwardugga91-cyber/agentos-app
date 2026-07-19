@@ -4,16 +4,14 @@
     "slug": "agentos-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "backgroundColor": "#050810"
-    },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#050810"
-      },
       "package": "com.agentos.app"
     },
-    "platforms": ["android"]
+    "platforms": ["android"],
+    "extra": {
+      "eas": {
+        "projectId": "76d09fd3-6fd0-4753-9ec2-1917cc74bfec"
+      }
+    }
   }
 }
